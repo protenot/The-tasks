@@ -2,13 +2,13 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    "jest/globals": true,
+    "jest/globals": true
   },
   extends: ["google", "prettier"],
-  overrides: [],
+  // overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
-    sourceType: "module",
+    sourceType: "module"
   },
   plugins: ["jest"],
   rules: {
@@ -17,8 +17,8 @@ module.exports = {
     "max-len": [
       "error",
       {
-        ignoreComments: true,
-      },
-    ],
-  },
+        ignoreComments: true
+      }
+    ]
+  }
 };
