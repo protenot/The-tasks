@@ -6,6 +6,7 @@ describe("addInObject", () => {
   });
   test("Console log should have been called", () => {
     const logSpy = jest.spyOn(global.console, "log");
+
     addInObject();
 
     expect(logSpy).toHaveBeenCalledTimes(2);

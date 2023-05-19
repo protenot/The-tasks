@@ -1,5 +1,5 @@
 import { day, month, year } from "./8-dates.js";
-// const input = '13.02.2023';
+
 describe("day, month, year", () => {
   it("day, month and year is exist", () => {
     expect(day).toBeDefined();

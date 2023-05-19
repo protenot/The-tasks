@@ -4,7 +4,7 @@ import {
   addParagraph,
   getElementToList,
   clearField
-} from "./index.js";
+} from "./7-dom.js";
 afterAll(addParagraph);
 
 describe("everithing", () => {
@@ -59,9 +59,6 @@ describe("everithing", () => {
       addParagraph(input2, button2);
       expect(input2.querySelector("p").innerHTML.toBe("Параграф 4"));
     }
-    // const mock = jest.fn();
-    // [1].addParagraph(x => mock(x));
-    // expect(mock).toEqual(expect.anything());
   });
   // it ("getElementToList to Be Called ", ()=>{
   //   const text1 = jest.fn();
