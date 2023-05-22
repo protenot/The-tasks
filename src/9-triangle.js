@@ -1,5 +1,5 @@
-export function triangle(a, b, c) {
-  if (Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2)) {
+export function triangle(a, catet1, catet2) {
+  if (Math.pow(catet1, 2) + Math.pow(catet2, 2) == Math.pow(a, 2)) {
     return "Треугольник прямоугольный";
   } else {
     return "Треугольник не прямоугольный";

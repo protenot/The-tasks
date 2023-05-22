@@ -1,5 +1,4 @@
-export function getMinuites() {
-  const now = new Date();
+export function getMinuites(now) {
   console.log(now);
   const minInDay = 24 * 60;
   const hrs = now.getHours();
