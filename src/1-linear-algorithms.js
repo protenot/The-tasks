@@ -7,4 +7,3 @@ export function summarize(string, superstring) {
   console.log(string.length + superstring.length);
   return string.length + superstring.length;
 }
-// summarize ("gnbwf", 'lbhda')
