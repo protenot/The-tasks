@@ -1,14 +1,11 @@
 export function getMax(a, b) {
-  let x;
-
   if (a > b) {
     console.log(a);
-    x = a;
+    return a;
   } else {
     console.log(b);
-    x = b;
+    return b;
   }
-  return x;
 }
 
 export function findMonth(number) {
@@ -26,6 +23,6 @@ export function findMonth(number) {
     "ноябрь",
     "декабрь"
   ];
-  const month = weekDays[number - 1];
-  return month;
+
+  return weekDays[number - 1];
 }
