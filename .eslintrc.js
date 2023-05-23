@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: ["jest"],
   rules: {
-    // "require-jsdoc": 0,
+     "require-jsdoc": 0,
     "import/prefer-default-export": "off",
     "comma-dangle": ["error", "never"],
     "max-len": [
