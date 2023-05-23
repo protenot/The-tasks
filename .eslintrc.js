@@ -5,7 +5,7 @@ module.exports = {
     "jest/globals": true
   },
   extends: ["google", "prettier"],
-  // overrides: [],
+  overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module"
