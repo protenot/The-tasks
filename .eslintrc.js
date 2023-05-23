@@ -12,6 +12,8 @@ module.exports = {
   },
   plugins: ["jest"],
   rules: {
+    "func-name-matching":
+     ["error", { "includeCommonJSModuleExports": true }],
      "require-jsdoc": 0,
     "import/prefer-default-export": "off",
     "comma-dangle": ["error", "never"],
