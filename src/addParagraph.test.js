@@ -32,7 +32,7 @@ describe("addParagraph", () => {
     expect([...el.querySelectorAll("p")].map((p) => p.innerText)).toEqual([
       "1",
       "2",
-      "3"
+      "3",
     ]);
   });
   it("shoes button when input with value", () => {

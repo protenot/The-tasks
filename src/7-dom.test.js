@@ -3,7 +3,7 @@ import {
   input,
   addParagraph,
   getElementToList,
-  clearField
+  clearField,
 } from "./7-dom.js";
 afterAll(addParagraph);
 

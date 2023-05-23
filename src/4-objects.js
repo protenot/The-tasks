@@ -1,6 +1,6 @@
 export function addInObject() {
   const user = {
-    name: "Jhon"
+    name: "Jhon",
   };
   const age = prompt("Input number from 15 to 150: ");
   // const age = 25;

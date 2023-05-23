@@ -9,7 +9,7 @@ export function dayOfBirthday() {
     "Среда",
     "Четверг",
     "Пятница",
-    "Суббота"
+    "Суббота",
   ];
   const inputDate = new Date(`${year}-${month}-${day}`);
   console.log(inputDate);

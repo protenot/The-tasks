@@ -21,7 +21,7 @@ export function findMonth(number) {
     "сентябрь",
     "октябрь",
     "ноябрь",
-    "декабрь"
+    "декабрь",
   ];
 
   return weekDays[number - 1];

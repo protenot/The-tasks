@@ -26,7 +26,7 @@ describe("addInObject", () => {
     expect(logSpy).toHaveBeenCalledWith({
       name: "Jhon",
       age: 26,
-      role: "admin"
+      role: "admin",
     });
   });
 
