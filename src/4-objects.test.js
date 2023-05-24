@@ -9,13 +9,9 @@ describe("addInObject", () => {
     expect(addInObject).toBeInstanceOf(Function);
   });
 
-  // it("testing prompt", ()=>{
-
-  // jest.spyOn(window, 'prompt').mockReturnValue(26);
-
-  // expect ( addInObject().toBeInstanceOf(Object))
-
-  // });
+  it("testing prompt", () => {
+    expect(addInObject()).toEqual({ age: 26, name: "Jhon", role: "admin" });
+  });
   test("Console log should have been called", () => {
     const logSpy = jest.spyOn(global.console, "log");
 
