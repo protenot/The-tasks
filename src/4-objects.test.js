@@ -9,27 +9,27 @@ describe("addInObject", () => {
     expect(addInObject).toBeInstanceOf(Function);
   });
 
-  it("testing prompt", () => {
-    expect(addInObject()).toEqual({ age: 26, name: "Jhon", role: "admin" });
-  });
-  test("Console log should have been called", () => {
+  test("prompt working and object user has name: Jhon and age:26 ", () => {
     const logSpy = jest.spyOn(global.console, "log");
 
     addInObject();
 
-    expect(logSpy).toHaveBeenCalledTimes(2);
+    expect(logSpy).toHaveBeenCalled();
 
     expect(logSpy).toHaveBeenCalledWith({
       name: "Jhon",
       age: 26,
-      role: "admin",
     });
   });
 
-  test("addInObject", () => {
+  it("admin has name:Jhon, age: 26, role:admin ", () => {
+    expect(addInObject()).toEqual({ age: 26, name: "Jhon", role: "admin" });
+  });
+
+  it("admin is object", () => {
     expect(addInObject()).toBeInstanceOf(Object);
   });
-  test("addInObject", () => {
+  it("admin not equal user", () => {
     expect(addInObject()).not.toContainEqual({ name: "Jhon", age: 26 });
   });
 });

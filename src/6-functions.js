@@ -3,7 +3,7 @@ export function diff(a, b) {
 }
 
 export function isWord(string) {
-  const words = string.split(" ");
+  const words = string.trim().split(" ");
   if (words.length === 1) {
     console.log(words.length);
     return true;

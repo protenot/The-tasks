@@ -19,4 +19,8 @@ describe("isWord", () => {
   it("is string has more then one item return false", () => {
     expect(isWord("hello my friend")).toBeFalsy();
   });
+
+  it("is string has one item and gaps return true", () => {
+    expect(isWord(" hello ")).toBeTruthy();
+  });
 });
